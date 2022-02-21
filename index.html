@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Pis/Pasep</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Consulte aqui se você tem direito ao beneficio do Pis/Pasep</h1>
+        <h2 style="text-align: center;">Preencha os dados abaixo: <br>
+            somente (Números)
+        </h2>
+
+
+        <form action="">
+            <div class="inputs">
+                <div class="idade">
+                    <p>Qual sua idade? </p>
+                    <input type="number" name="" id="idade">
+                </div>
+                <div class="tempo-de-servico">
+                    <p> A quantos anos você teve sua primeira <br> assinatura na carteira de trabalho?</p>
+                    <input type="number" name="" id="tempo">
+                </div>
+                <div class="salario">
+                    <p>Qual seu salário atual? </p>
+                    <input type="number" name="" id="salario">
+                </div>
+            </div>
+            
+            <div>
+                <button id="consulta" onclick="consultar()" >Consultar</button>
+            </div>
+            
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
